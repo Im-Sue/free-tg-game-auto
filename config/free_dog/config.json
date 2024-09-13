@@ -1,0 +1,13 @@
+{
+    "_comment": {
+        "key": "这是用来写注释的!不要改这里的东西",
+        "thread_num": "启动线程数, 最小1, 最大10",
+        "invite_code": "邀请码",
+        "circle_time": "循环次数, -1是永久循环",
+        "hide_browser": "是否隐藏浏览器"
+    },
+    "thread_num": 3,
+    "invite_code": "ref_E6SfaiFU",
+    "circle_time": 1,
+    "hide_browser": true
+}

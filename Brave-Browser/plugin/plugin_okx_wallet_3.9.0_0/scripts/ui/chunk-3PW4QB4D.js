@@ -1,0 +1,6 @@
+import{a as m}from"./chunk-TPVT7ZCY.js";import{a as _}from"./chunk-PYJPOVV7.js";import{f as t}from"./chunk-RIJWHGTU.js";import{I as k,v as s}from"./chunk-K4MPEKC5.js";import{c as q}from"./chunk-XIGC6FD5.js";import{a as c}from"./chunk-CXUPEGDW.js";import{f as n,m as e,o as i}from"./chunk-ICCOEXX5.js";e();i();var r={root:"_root_1n2q0_1",passwordInput:"_passwordInput_1n2q0_5",container:"_container_1n2q0_11",title:"_title_1n2q0_17",desc:"_desc_1n2q0_25",link:"_link_1n2q0_32",form:"_form_1n2q0_36",inputError:"_inputError_1n2q0_41",input:"_input_1n2q0_41"};e();i();var o=n(c()),a=n(q());k();function w({className:l,title:p,desc:d,children:f}){let u=m();return o.default.createElement("div",{className:(0,a.default)(r.root,l)},o.default.createElement(_,{bordered:!1,closeable:!1}),o.default.createElement("div",{className:r.container},o.default.createElement("h1",{className:r.title},p),o.default.createElement("div",{className:r.desc},d,o.default.createElement("div",null,o.default.createElement(t,{className:r.link,type:t.TYPE.primary,weight:t.WEIGHT.medium,size:t.SIZE.sm,href:u?.forgetPwd,target:"__blank"},s("wallet_set_password_header_link_learn_more")))),f({formClass:r.form,formErrorClass:r.inputError,itemClass:r.input})))}var T=w;export{r as a,T as b};
+
+window.inOKXExtension = true;
+window.ASSETS_BUILD_TYPE = "publish";
+
+//# sourceMappingURL=chunk-3PW4QB4D.js.map

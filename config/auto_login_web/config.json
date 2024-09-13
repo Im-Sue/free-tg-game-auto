@@ -1,0 +1,10 @@
+{
+    "_comment": {
+        "key": "这是用来写注释的!不要改这里的东西",
+        "thread_num": "启动线程数, 最小1, 最大10",
+        "invite_code": "邀请码"
+    },
+    "thread_num": 1,
+    "invite_code": "sl_6862568528",
+    "hide_browser": false
+}

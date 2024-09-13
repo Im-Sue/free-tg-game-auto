@@ -1,0 +1,16 @@
+{
+   "background": {
+      "service_worker": "background.js"
+   },
+   "description": "ignore x-frame-options",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "16": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhoYSrLNxuVYietqjlqvXVdusSJPSiveeqZZtveVPuuLFsbbCaxESwWBGEIclfePLlJ70zxRU4/o6Hf9pSeDieQ0VOD25z0IOSHQJ0iGmfr4exMS7xYYvCX8u8eiFU3iQnjs/KMLZjcw2ejDtTlIVsjx/yLdE3cwdsQ8a+qtT3wwBgHn7oyhDdMwchlT0Lnn7MXenw/72WcpO9zhJMrpCEKWzCjumzeW58eiVcYx2/i6TS2pW++C2Ia51pgZj+LIOla1lSb4I/vyZ7loD0hpuQxSN3UQVXgSMJ+KsezztTca58cWIxZBqbdRj1q432HCfsXQZeBCPKPc8s2nJjKe+0QIDAQAB",
+   "manifest_version": 3,
+   "name": "ignore-x-frame-options",
+   "permissions": [ "declarativeNetRequest" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1"
+}

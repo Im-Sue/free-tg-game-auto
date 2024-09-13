@@ -1,0 +1,6 @@
+import{B as s,C as f}from"./chunk-ZPOCIBPN.js";import{d as n,f as x}from"./chunk-2G2AXMFT.js";import{m as d}from"./chunk-M54COW6Q.js";import{f as g,m as r,o}from"./chunk-ICCOEXX5.js";r();o();x();r();o();var i=g(d());r();o();var m="rpc",c={MANAGE_NET:"manageNet",EVM:"evm"},u={[c.MANAGE_NET]:"ManageNet",[c.EVM]:"Evm"};var N=(0,i.curry)((e,t)=>{let a=u[e];if(!a)throw new Error("rpc type must in maps");if(!(typeof t=="string"&&/^[0-9a-zA-Z]+$/g.test(t)))throw new Error("scope name is invalid");return`${m}${a}${t}`}),I=N(c.MANAGE_NET),E=N(c.EVM);var S=E("Chain"),_={blockNumber:0},l=s({name:S,initialState:_,reducers:{setBlockNumber:(e,{payload:t})=>{e.blockNumber=t}}}),v=e=>e[l.name].blockNumber,D=e=>{let{metamask:{defaultNets:t,customNets:a}}=e;return{defaultNets:t,customNets:a}},V=e=>e.metamask.rpcInfo,$=e=>()=>{n().setCurrentRpc(e)},G=async e=>await n().getRpcInfoByUniqueId(e);var W=e=>e.metamask.customNets,q=e=>async()=>await n().createRpcByDapp(e),U=e=>()=>{n().handleDeleteNetWork(e)};function Y(e){return e.metamask.rpcLoading}function z(e){return e.metamask.rpcLoadingCount}var{actions:A,reducer:k}=l,{setBlockNumber:Z}=A;var j=k;export{I as a,E as b,S as c,v as d,D as e,V as f,$ as g,G as h,W as i,q as j,U as k,Y as l,z as m,Z as n,j as o};
+
+window.inOKXExtension = true;
+window.ASSETS_BUILD_TYPE = "publish";
+
+//# sourceMappingURL=chunk-4RHFH7IF.js.map

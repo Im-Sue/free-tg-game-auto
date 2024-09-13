@@ -1,0 +1,6 @@
+import{a as y}from"./chunk-74GTIAZN.js";import{a as h}from"./chunk-M4JNKF23.js";import{a as A}from"./chunk-SR2BDP3A.js";import{Eb as C,Wa as g,y as x}from"./chunk-ZPOCIBPN.js";import{Sa as i,Ya as p,pb as q}from"./chunk-M54COW6Q.js";import{I as D,l as f}from"./chunk-K4MPEKC5.js";import{a as k}from"./chunk-CXUPEGDW.js";import{f as m,m as l,o as d}from"./chunk-ICCOEXX5.js";l();d();var a=m(x());D();var N=m(k());q();var E=c=>c.map(n=>({...n,coinAmount:null})),L=()=>{let c=A(),{currentNetworkUniqueId:n}=y(),o=h(),I=(0,a.useSelector)(g),S=(0,a.useSelector)(C),M=Boolean(I[c]),b=Boolean(S[c]);return(!M||b)&&(o=E(o)),(0,N.useMemo)(()=>{if(n==="")return o;let B=o.filter(r=>(r?.childrenCoin||[]).find(e=>e.chainId===Number(n))||r.chainId===Number(n)),s=[];return B.forEach(r=>{if(r?.aggregation){let e=(r?.childrenCoin||[]).filter(t=>t.chainId===Number(n)),W=e.reduce((t,u)=>i(t,u.coinAmount),"0"),w=e.reduce((t,u)=>i(t,u.currencyAmount),"0"),U=e.reduce((t,u)=>i(t,u.currencyAmountUSD),"0");s.push({...r,childrenCoin:e,coinAmount:W,currencyAmount:w,currencyAmountUSD:U})}else s.push(r)}),s.map(r=>({...r,coinAmount:r?.coinAmount===null?"--":f.truncate(r?.coinAmount,6,!1)})).sort((r,e)=>p(e.currencyAmount,r.currencyAmount)?1:-1)},[o,n])};export{L as a};
+
+window.inOKXExtension = true;
+window.ASSETS_BUILD_TYPE = "publish";
+
+//# sourceMappingURL=chunk-RQ3CXUPA.js.map

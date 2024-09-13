@@ -1,0 +1,6 @@
+import{c as f}from"./chunk-JPV5PNQX.js";import{k as p}from"./chunk-4RHFH7IF.js";import{d}from"./chunk-LPTRVNVL.js";import{y as g}from"./chunk-ZPOCIBPN.js";import{H as r,o as c}from"./chunk-RIJWHGTU.js";import{I as x,v as e}from"./chunk-K4MPEKC5.js";import{X as o}from"./chunk-XIGC6FD5.js";import{a as k}from"./chunk-CXUPEGDW.js";import{f as m,m as s,o as a}from"./chunk-ICCOEXX5.js";s();a();var t=m(g());var u=m(k());x();function S(){let n=(0,t.useDispatch)(),{currentNetworkUniqueId:l}=(0,t.useSelector)(d);return(0,u.useCallback)(({editRpcInfo:i,onDeleted:_})=>{if(f(i,{uniqueId:l})){r.error({title:e("developer_mode_network_toast_cannot_delete"),top:16});return}let w=c.warn({title:e("extension_wallet_network_modaltitle_delete_confirm"),text:e("extension_wallet_network_modaldesc_delete_confirm"),confirmText:e("extension_wallet_network_text_remove_network"),confirmBtnProps:{type:o.TYPE.red,size:o.SIZE.lg},cancelText:e("developer_mode_network_btn_botcancel"),alignBottom:!1,onConfirm:()=>{n(p(i)),r.success(e("developer_mode_network_toast_delete_done")),w.destroy(),_&&_()}})},[n,l])}export{S as a};
+
+window.inOKXExtension = true;
+window.ASSETS_BUILD_TYPE = "publish";
+
+//# sourceMappingURL=chunk-LSZZKHZT.js.map

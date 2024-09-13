@@ -1,0 +1,6 @@
+import{b as h}from"./chunk-C54I6GL3.js";import{d as p,f as E}from"./chunk-2G2AXMFT.js";import{B as x,Qa as m,Sa as d,Va as f,_b as g,db as P,la as I,o as u,pb as y}from"./chunk-M54COW6Q.js";import{m as $,o as l}from"./chunk-ICCOEXX5.js";$();l();y();I();E();var G=(e=[])=>Array.isArray(e)?e.map(r=>{let{symbol:t,name:n}=r;return{...r,chain:t,chainName:n}}).filter(({chainId:r})=>!!r):[],R=e=>parseInt(e,16);var b=({gasPrice:e,gasLimit:r,price:t,usdToThisRate:n})=>{let a=m(e,r),i=P(a),c=t?m(i,m(t,n)):0;return{networkFee:i,networkFeeInt:a,networkFeeMarket:c}};var v=(e=[],r,t=u)=>{let n=[];return e.forEach(({keyringName:a,walletIdentities:i,keyringIdentityType:c})=>{c!==g.HARDWARE&&(r?n=n.concat(i.filter(({account:o,backupData:s})=>(!s||!s?.length)&&!!o[t]).map(({account:o})=>o[t])):n.push({name:a,options:i.filter(({backupData:o,account:s})=>(!o||!o?.length)&&!!s[t]).map(({walletName:o,account:s})=>({name:o,address:s[t]}))}))}),n},B=({txAmount:e,networkFee:r,balance:t,baseCoinBalance:n,isBaseCoin:a})=>!(a&&f(t,d(e,r))||!a&&f(n,r)),C=async e=>{let r=await p().getWalletIdByAddress(e,u);return await h({walletId:r})},L=e=>{let{localType:r,address:t}=e||{};return r===x?!0:!t};export{G as a,R as b,b as c,v as d,B as e,C as f,L as g};
+
+window.inOKXExtension = true;
+window.ASSETS_BUILD_TYPE = "publish";
+
+//# sourceMappingURL=chunk-LHNVUV3G.js.map
