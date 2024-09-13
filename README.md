@@ -46,7 +46,7 @@
 如有问题或建议，欢迎联系：
 - 邮箱: [wukong@sssssssssssuyj.xyz](mailto:your-email@example.com)
 - dc：
-- tg：
+- tg：https://t.me/+KAA--2FF2n40ZmI1
 - x：
 - 微信: 
 - <img src="img.png" alt="联系微信" width="200">
