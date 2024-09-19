@@ -1,0 +1,20 @@
+{
+    "_comment": {
+        "key": "这是用来写注释的!不要改这里的东西",
+        "thread_num": "启动线程数, 最小1, 最大10",
+        "circle_time": "循环次数, -1是永久循环",
+        "circle_sleep_time": "每次循环后睡眠时间, 单位秒",
+        "hide_browser": "是否隐藏浏览器",
+        "task_data": "任务答案"
+    },
+    "thread_num": 3,
+    "circle_time": 1,
+    "circle_sleep_time": 60,
+    "hide_browser": true,
+    "task_data": [
+        {
+            "task_id": 92,
+            "code": "070624"
+        }
+    ]
+}
