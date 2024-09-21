@@ -1,0 +1,15 @@
+{
+    "_comment": {
+        "key": "这是用来写注释的!不要改这里的东西",
+        "thread_num": "启动线程数, 最小1, 最大10",
+        "hide_browser": "是否隐藏浏览器"
+    },
+    "thread_num": 3,
+    "hide_browser": true,
+    "game_config": {
+        "maxMultivalue": 7,
+        "maxCoinlimit": 5,
+        "maxFillRate": 5,
+        "maxYesPac": 3
+    }
+}
