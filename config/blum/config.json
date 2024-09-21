@@ -2,10 +2,8 @@
     "_comment": {
         "key": "这是用来写注释的!不要改这里的东西",
         "thread_num": "启动线程数, 最小1, 最大10",
-        "invite_code": "邀请码,不要带前缀ref_",
         "hide_browser": "是否隐藏浏览器窗口 false不隐藏  true隐藏,第一次运行时需要打开浏览器登录账号，后续再配置关闭"
     },
     "thread_num": 2,
-    "invite_code": "sl_6862568528",
     "hide_browser": false
 }
