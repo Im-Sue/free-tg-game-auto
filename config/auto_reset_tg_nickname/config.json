@@ -1,0 +1,15 @@
+{
+    "_comment": {
+        "key": "这是用来写注释的!不要改这里的东西",
+        "thread_num": "启动线程数, 最小1, 最大10",
+        "hide_browser": "是否隐藏浏览器",
+        "custom_name": "自定义名称",
+        "name_type": "名字类型: 1-自定义名称, 2-随机生成"
+    },
+    "thread_num": 3,
+    "hide_browser": false,
+    "custom_name": "🍅",
+    "name_type": 1,
+    "web_cache": "F://tg游戏//自己//cache//web",
+    "chrome_path": "./Brave-Browser/Application/brave.exe"
+}
