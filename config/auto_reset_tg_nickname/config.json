@@ -10,6 +10,6 @@
     "hide_browser": false,
     "custom_name": "🍅",
     "name_type": 1,
-    "web_cache": "F://tg游戏//自己//cache//web",
+    "web_cache": "./cache/web",
     "chrome_path": "./Brave-Browser/Application/brave.exe"
 }
